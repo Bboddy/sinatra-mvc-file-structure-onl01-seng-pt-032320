@@ -7,6 +7,6 @@ class Dog
     @breed = breed
     @age = age 
     
-    self >> @all
+    @all >> self
   end
 end
