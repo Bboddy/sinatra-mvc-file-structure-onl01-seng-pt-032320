@@ -9,4 +9,8 @@ class Dog
     
     ALL << self
   end
+  
+  def self.all
+    ALL
+  end
 end
